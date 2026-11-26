@@ -24,6 +24,10 @@ _Avoid_: Plain 2, plane, stick
 Any part of the Statue that can be projected onto: a Ball or a Panel.
 _Avoid_: Area, zone, region
 
+**Snow Base**:
+The white light projected onto every Surface underneath the Design, so that dark colours show up on the Statue.
+_Avoid_: Background, base colour, fill
+
 ## Decorating
 
 **Visitor**:
