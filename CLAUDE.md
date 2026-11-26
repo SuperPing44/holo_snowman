@@ -16,6 +16,12 @@ Default vocabulary: needs-triage, needs-info, ready-for-agent, ready-for-human, 
 
 Single-context: one `GLOSSARY.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.
 
+## Skills to use
+
+- **Never use the `gam-*` skills** in this project (`gam-engineering`, `gam-concept`, `gam-delivery`, `gam-explore`, `gam-frontend`, `gam-v-*`, etc.), nor their old names (`humanengineering`, `engineering-human`). If a skill or prompt routes there, use the equivalent skill below instead.
+- **Planning and engineering: Matt Pocock's skills.** `grilling` / `grill-me` / `grill-with-docs`, `domain-modeling`, `wayfinder`, `research`, `prototype`, `to-spec`, `to-tickets`, `triage`, `tdd`, `codebase-design`, `improve-codebase-architecture`, `diagnosing-bugs`, `code-review`, `pr`, `writing-for-agents`, `setup-matt-pocock-skills`.
+- **Design and UI (later phases): Emil Kowalski's skills.** `emil-design-eng`, `animate`, `choreograph`, `gestures`, `animation-performance`, `review-animations`, `break-ui`, `mobile-native`, `apple-design`.
+
 ## Git workflow
 
 - `main`: only stable, working states. Updated only by merging `dev` when something stands.
